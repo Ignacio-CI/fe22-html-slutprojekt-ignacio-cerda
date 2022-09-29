@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;0,400;0,700;1,700&family=Rubik+Dirt&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/style.css" />
+    <title>Black Cat Studio</title>
+  </head>
+  <body class="studio-site-body">
+
+    <!-- pictures grid-container -->
+
+    <div class="site-grid-container">
+      <!-- Navbar (from Bootstrap) -->
+      <ul
+      class="nav sticky-top justify-content-evenly bg-dark bg-gradient p-2"
+    >
+      <li class="nav-item">
+        <a class="nav-link active" aria-current="page" href="./studio.html"
+          >Home</a
+        >
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Equipment</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Prices</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled">Contact</a>
+      </li>
+    </ul>
+
+    <!-- Header -->
+
+    <header>
+      <h1>Black Cat Studio</h1>
+    </header>
+
+    <!-- Main picture -->
+      <picture class="pic-1">
+        <source srcset="../img/studio_medium.jpg" media="(min-width: 640px)">
+        <img src="../img/studio_small.jpg" alt="a recording studio" />
+      </picture>
+    
+    <!-- Site info -->
+
+      <div class="site-info">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos explicabo
+          optio accusantium est molestias nulla velit pariatur, nam dignissimos,
+          eos aut assumenda. Blanditiis nobis iste voluptatem. Quisquam nesciunt
+          illo aspernatur?
+        </p>
+      </div>
+
+    <!-- More pictures -->
+      <picture class="pic-2">
+        <source srcset="../img/studio_site_medium_6.jpg" media="(min-width: 800px)">
+        <img src="../img/studio_site_small_7.jpg" alt="">
+      </picture>
+      <picture class="pic-3">
+        <source srcset="../img/studio_site_medium_8.jpg" media="(min-width: 800px)">
+        <img src="../img/studio_site_small_5.jpg" alt="">
+      </picture>
+      <picture class="pic-4">
+        <source srcset="../img/studio_site_medium_4.jpg" media="(min-width: 800px)">
+        <img src="../img/studio_site_small_2.jpg" alt="">
+      </picture>
+
+    <!-- Footer -->
+
+      <footer class="site-footer">
+        <p>info@blackcatstudio.com</p>
+        <p>214 40 - Malmö</p>
+        <p>070- 254 30 22</p>
+      </footer>
+    </div>
+  </body>
+</html>
